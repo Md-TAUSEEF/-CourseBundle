@@ -12,5 +12,5 @@ const store = configureStore({
     },
 });
 
-const server = 'https://coursebandlear.onrender.com';
+const server = 'https://coursebandlear-1.onrender.com';
 export { store, server };
