@@ -1,0 +1,48 @@
+.Notfound_cnt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .notfound_mid {
+   display: flex;
+   flex-direction: column;
+   align-items:center;
+   justify-content: center;
+  }
+
+  .notfound_mid svg{
+    width: 70px;
+    height: 60px;
+  }
+
+  .notfound_mid h2{
+    color: rgb(7, 0, 0); 
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 8px;
+   
+  }
+
+  .notfound_mid h2:hover{
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: lightslategray;
+    border-radius: 4px;
+    padding: 6px;
+  }
+  
+ 
+  @media only screen and (max-width: 600px) {
+    .notfound_mid {
+      padding: 0 20px;
+    }
+  
+    .notfound_mid1 h1 {
+      font-size: 24px;
+    }
+  }
+  

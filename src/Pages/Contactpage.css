@@ -1,0 +1,49 @@
+
+.Contactpa_cnt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 50px;
+  }
+  
+  .contactpag_mid1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 300px;
+  }
+  
+  
+  
+  .coursepage_mid2 {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .course_mid3 {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  }
+  
+  .course_mid3 button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .course_mid3 button:hover {
+    background-color: #0056b3;
+  }
+  
+  .course_mid3 button p {
+    margin: 0;
+  }
+  

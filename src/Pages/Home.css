@@ -1,0 +1,134 @@
+
+.Homecontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 695px;
+  position: relative;
+
+}
+
+.Home_head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+.Home_head h1,
+.Home_head p {
+  margin: 2px;
+  padding: 2px;
+}
+
+.home_btn {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.home_btn:hover {
+  background-color: #0056b3;
+}
+
+.home_btn:active {
+  background-color: #004080;
+}
+
+.homeimg img {
+  width: 42vh; 
+  height: 44vh; 
+  margin-right: 20px;
+  filter: drop-shadow(0 40px 10px rgba(0, 0, 0, 0.3));
+  animation: vectoranimation 1s infinite ease-in-out alternate;
+}
+
+@keyframes vectoranimation {
+  to {
+      transform: translateY(-10px);
+  }
+}
+
+.Home_mid {
+  text-align: center;
+  background-color: black;
+}
+
+.Home_mid h1 {
+  color: yellow;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.Home_midicon {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Home_midicon svg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: lightcyan;
+  width: 36px;
+  height: 36px;
+  margin: 0 10px;
+  padding-bottom: 8px;
+}
+
+.Home_container2 {
+  width: 100vh; 
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.Home_container2 video {
+  width: 80%;
+  max-width: 100%; 
+  height: auto; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.175);
+  border-radius: 5px;
+  outline: none;
+}
+
+
+@media (max-width: 768px) {
+  .Homecontainer {
+    flex-direction: column;
+      height: auto; 
+  }
+
+  .homeimg img {
+      width: 100%; 
+      height: auto;
+      margin-top: 20px;
+  }
+
+  .home_btn {
+    margin-top: 20px;
+}
+
+  .Home_container2 {
+      width: 100%; 
+      height: auto;
+  }
+
+  .Home_container2 video {
+    margin-top: 50px;
+      width: 100%; 
+  }
+}

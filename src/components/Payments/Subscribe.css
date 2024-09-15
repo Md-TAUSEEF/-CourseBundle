@@ -1,0 +1,97 @@
+.Subscribe_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.subscribe_mid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.subscribe_btn1 button{
+    background-color: #ffd500;
+    border: none;
+    color: rgb(7, 0, 0);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 8px;
+    width: 350px;
+}
+
+.subscribe_mid1{
+    padding: 30px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 350px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.175);
+    border-radius: 5px;
+}
+
+.subscribe_mid1 h2{
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.subscribe_mid1 button{
+    background-color: #ffd500;
+    border: none;
+    color: rgb(7, 0, 0);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 8px;
+    width: 300px;
+}
+
+.subscribe_mid1 button:hover{
+    cursor: pointer;
+    background-color: #ffb300;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.175);
+}
+
+.subscribe_mid2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(57, 57, 57);
+    border-radius: 4px;
+    width: 350px;
+}
+
+.subscribe_mid2 h4{
+font-size: 16px;
+margin-right: 50px;
+color: aliceblue;
+padding-top: 10px;
+
+}
+.subscribe_mid2 p{
+   
+    font-size: 14px;
+    margin-right: 55px;
+    color: rgb(221, 221, 222);
+  
+
+}

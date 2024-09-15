@@ -1,0 +1,150 @@
+/* Default styles */
+
+.About_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.175);
+  border-radius: 5px;
+}
+
+.aboutcntr {
+  box-shadow: 0 0 10px rgba(47, 47, 47, 0.175);
+  border-radius: 5px;
+  margin: 18px 0px;
+}
+
+.About_container h1 {
+  font-size: 2.5rem;
+  margin: 20px 40px;
+}
+
+.About_cntmid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.About_cntmid1,
+.About_cntmid2 {
+ 
+  flex: 1;
+  margin: 14px;
+}
+
+.About_cntmid1 p {
+  font-size: 1.2rem;
+}
+
+.Home_container2 {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.Home_container2 video {
+  width: 100%;
+}
+
+.TandC_cnt {
+  padding: 20px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.TandC_cnt h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.TandC_mid {
+  width: 100%;
+  max-width: 800px;
+  text-align: center;
+}
+
+.TandC_mid p {
+  font-size: 1.2rem;
+}
+
+.Pyment_cnt {
+  padding: 20px;
+}
+
+.Pyment_cnt h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Responsive styles */
+
+@media screen and (max-width: 768px) {
+  .About_container h1 {
+    font-size: 2rem;
+    margin: 20px 20px;
+  }
+
+  .About_cntmid1,
+  .About_cntmid2 {
+    margin: 10px;
+  }
+
+  .About_cntmid1 p {
+    font-size: 1.1rem;
+  }
+
+  .TandC_cnt {
+    padding: 10px;
+  }
+
+  .TandC_cnt h1 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+
+  .TandC_mid p {
+    font-size: 1rem;
+  }
+
+  .Pyment_cnt h1 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .About_container h1 {
+    font-size: 1.8rem;
+    margin: 20px 10px;
+  }
+
+  .About_cntmid1,
+  .About_cntmid2 {
+    margin: 5px;
+  }
+
+  .About_cntmid1 p {
+    font-size: 1rem;
+  }
+
+  .TandC_cnt {
+    padding: 5px;
+  }
+
+  .TandC_cnt h1 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  .TandC_mid p {
+    font-size: 0.9rem;
+  }
+
+  .Pyment_cnt h1 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+}

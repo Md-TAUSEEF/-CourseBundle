@@ -1,0 +1,22 @@
+.founder_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.founder_mid p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.founder_mid1 h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.founder_mid1 p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+}

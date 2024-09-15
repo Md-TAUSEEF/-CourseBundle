@@ -1,0 +1,186 @@
+/* profilec.css */
+
+/* Base Styles */
+.profile-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.profile-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.profile-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.profile-header button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.profile-details {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.profile-field {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.profile-field h4 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.profile-field p {
+  margin: 0;
+  font-size: 16px;
+  color: #555;
+  text-align: right;
+}
+
+.profile-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.profile-actions button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.profile-playlist {
+  width: 100%;
+}
+
+.playlist-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.playlist-item {
+  width: 200px;
+  text-align: center;
+}
+
+.playlist-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.playlist-item button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* Responsive Styles */
+@media (min-width: 768px) {
+  .profile-content {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .profile-header {
+    width: 300px;
+    flex-shrink: 0;
+  }
+
+  .profile-details {
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .profile-field {
+    justify-content: space-between;
+    padding: 15px;
+  }
+
+  .profile-actions {
+    justify-content: flex-start;
+  }
+
+  .profile-playlist {
+    margin-top: 30px;
+  }
+
+  .playlist-item {
+    width: calc(33.333% - 20px);
+  }
+}
+
+@media (max-width: 767px) {
+  .profile-container {
+    padding: 10px;
+  }
+
+  .profile-header button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+  .profile-field h4 {
+    font-size: 16px;
+  }
+
+  .profile-field p {
+    font-size: 14px;
+  }
+
+  .profile-actions button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+  .playlist-item {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .profile-header {
+    text-align: center;
+  }
+
+  .profile-field {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .profile-field p {
+    text-align: left;
+    margin-top: 5px;
+  }
+
+  .profile-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}

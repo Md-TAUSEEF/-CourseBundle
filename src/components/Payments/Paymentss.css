@@ -1,0 +1,75 @@
+.Paymentss_cnt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+    margin-top: 90px;
+}
+
+.Paymentss_cnt h1{
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+}
+
+.paymentss_mid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.paymentss_mid button{
+    background-color: #ffcc00;
+    border: none;
+    color: rgb(7, 0, 0);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 8px;
+    width: 350px;
+}
+
+.payments_mid1{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+    width: 350px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.175);
+    border-radius: 5px;
+
+}
+
+.payments_mid1 p{
+    font-size: 16px;
+    padding-left: 8px;
+    padding-top: 10px;
+}
+
+.payments_icon1 svg{
+    width: 80px;
+    height: 70px;
+}
+
+.payments_mid1 h2{
+    color: rgb(7, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
+
+.payments_mid1 h3{
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+}
